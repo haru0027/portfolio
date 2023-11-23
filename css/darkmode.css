@@ -1,0 +1,284 @@
+@charset "utf-8";
+
+/* darkmode 버튼 */
+main .inner .file-box .three-op .op-down .darkmode {
+    box-shadow: 0 0 10px #fff;
+    border-radius: 50%;
+}
+
+main .inner .content .content-wrap .con-down .con-wrap li.dark {
+    background-color: #fff;
+}
+
+
+/* header */
+header.dark {
+    background-color: #F8F8F8;
+    border-color: #EBEBEB;
+}
+
+/* file... 글자 색 */
+header .inner .menu .menu-op li a.dark {
+    color: #5B5B5B;
+}
+
+/* find 창 */
+header .inner .find .arrow .prev.dark {
+    background: url('../img/dark/top-prev-b.svg');
+}
+
+header .inner .find .arrow .next.dark {
+    background: url('../img/dark/top-next-b.svg');
+}
+
+header .inner .find a.dark {
+    border: 1px solid #D6D6D6;
+    background-color: #EBEBEB;
+}
+
+header .inner .find a span.dark {
+    background: url('../img/dark/find-top-b.svg') no-repeat center/cover;
+}
+
+header .inner .find a p.dark {
+    color: #1E1E1E;
+}
+
+/* window */
+header .inner .window .position span:nth-child(1).dark {
+    background: url('../img/dark/window-left-b.svg');
+}
+
+header .inner .window .position span:nth-child(2).dark {
+    background: url('../img/dark/window-bottom-b.svg');
+}
+
+header .inner .window .position span:nth-child(3).dark {
+    background: url('../img/dark/window-right-b.svg');
+}
+
+header .inner .window .position span:nth-child(4).dark {
+    background: url('../img/dark/window-top-b.svg');
+}
+
+/* x쪽... */
+header .inner .window .window-op span:nth-child(1).dark {
+    background-color: #1E1E1E;
+}
+
+header .inner .window .window-op span:nth-child(2).dark {
+    background: url('../img/dark/small-window-b.svg')no-repeat center;
+}
+
+header .inner .window .window-op span:nth-child(3).dark {
+    color: #1E1E1E;
+}
+
+/* main */
+/* three-op */
+main .inner .file-box .three-op.dark {
+    border-color: #E5E5E5;
+    background-color: #F8F8F8;
+}
+
+main .inner .file-box .file.dark {
+    border-color: #E5E5E5;
+    background-color: #F8F8F8;
+}
+
+main .inner .file-box .three-op .op-up a:nth-child(1).dark {
+    background: url('../img/dark/file-b.svg')no-repeat center/cover;
+    height: 28px;
+}
+
+main .inner .file-box .three-op .op-up a:nth-child(2).dark {
+    background: url('../img/dark/find-b.svg')no-repeat center/cover;
+}
+
+main .inner .file-box .three-op .op-up a:nth-child(3).dark {
+    background: url('../img/dark/component-b.svg')no-repeat center/30px 26px;
+}
+
+main .inner .file-box .three-op .op-down span:nth-child(1).dark {
+    background: url('../img/dark/my-b.svg') no-repeat center/cover;
+}
+
+main .inner .file-box .three-op .op-down .darkmode.dark {
+    background: url('../img/dark/setting-b.svg') no-repeat center/cover;
+    box-shadow: 0 0 10px #000;
+}
+
+/* file */
+
+main .inner .file-box .file .file-up a.dark {
+    color: #3B3B3B;
+}
+
+main .inner .file-box .file .file-up a span.dark {
+    background: url('../img/dark/more-b.svg') no-repeat center;
+}
+
+main .inner .file-box .file .file-up dl dd.active.white {
+    background-color: #E4E6F1;
+}
+
+main .inner .file-box .file .file-up dl dt.dark {
+    background: url('../img/dark/noline-arrow-down-b.svg') no-repeat 3% center;
+    color: #3B3B3B;
+}
+
+main .inner .file-box .file .file-up dl dd.dark {
+    background: url('../img/dark/noline-arrow-right-b.svg') no-repeat 9% 45%;
+    color: #3B3B3B;
+}
+
+main .inner .file-box .file .file-down .down-box.dark {
+    border-color: #E5E5E5;
+    color: #3B3B3B;
+    background: url('../img/dark/noline-arrow-right-b.svg') no-repeat 9% 45%;
+}
+
+/* content */
+
+main .inner .content .content-wrap.dark {
+    border-color: #E5E5E5;
+    background-color: #F8F8F8;
+}
+
+main .inner .content .content-wrap .con-up li.dark {
+    background-color: #F8F8F8;
+}
+
+main .inner .content .content-wrap .con-up li a.dark {
+    color: #3B3B3B;
+}
+
+main .inner .content .content-wrap .con-up li.active.white {
+    background-color: #fff;
+}
+
+main .inner .content .content-wrap .con-up li a span.dark {
+    background: url('../img/dark/tab-x-b.svg') no-repeat center;
+}
+
+/* profile */
+
+main .inner .content .content-wrap .con-down .con-wrap .profile .pro-left h1.dark {
+    color: #000;
+}
+
+main .inner .content .content-wrap .con-down .con-wrap .profile .pro-left h2.dark {
+    color: #333;
+}
+
+main .inner .content .content-wrap .con-down .con-wrap .profile dt.dark {
+    color: #333;
+}
+
+main .inner .content .content-wrap .con-down .con-wrap .profile .pro-left dd.dark {
+    color: #333;
+}
+
+main .inner .content .content-wrap .con-down .con-wrap .profile .pro-left .portfolio dd a.dark {
+    color: #333;
+}
+
+/* work */
+main .inner .content .content-wrap .con-down .con-wrap .work p.dark {
+    color: #333;
+}
+
+main .inner .content .content-wrap .con-down .con-wrap .work p strong.dark {
+    border-color: #333;
+}
+
+main .inner .content .content-wrap .con-down .con-wrap .work p span.deepblue.dark {
+    color: #800000;
+}
+
+main .inner .content .content-wrap .con-down .con-wrap .work p span.lightblue.dark {
+    color: #E50000;
+}
+
+main .inner .content .content-wrap .con-down .con-wrap .work p span.red.dark {
+    color: #0000FF;
+}
+
+main .inner .content .content-wrap .con-down .con-wrap .work p span.red a.dark {
+    color: #0000FF;
+}
+
+/* contact */
+
+main .inner .content .content-wrap .con-down .con-wrap .contact .contact-left h1.dark {
+    color: #000;
+}
+
+main .inner .content .content-wrap .con-down .con-wrap .contact .contact-left .contact-dl dt.dark {
+    color: #333;
+    font-weight: bold;
+}
+
+main .inner .content .content-wrap .con-down .con-wrap .contact .contact-left .contact-dl dd.dark {
+    color: #333;
+}
+
+main .inner .content .content-wrap .con-down .con-wrap .contact .contact-left p.dark {
+    color: #333;
+}
+
+main .inner .content .content-wrap .con-down .con-wrap .contact .contact-right form fieldset.dark {
+    border-color: #333;
+}
+
+main .inner .content .content-wrap .con-down .con-wrap .contact .contact-right form fieldset textarea.dark {
+    border-color: #333;
+    color: #333;
+}
+
+main .inner .content .content-wrap .con-down .con-wrap .contact .contact-right form fieldset #submit.dark {
+    border-color: #333;
+    color: #333;
+}
+
+main .inner .content .content-wrap .con-down .con-wrap .contact .contact-right form fieldset div input {
+    color: #333;
+}
+
+main .inner .content .content-wrap .con-down .con-wrap .contact .contact-right form fieldset #submit.dark:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+main .inner .content .content-wrap .con-down .con-wrap .contact .contact-right form fieldset h1.dark {
+    color: #000;
+}
+
+/* footer */
+footer.dark {
+    border-color: #E5E5E5;
+}
+
+footer .inner .gray.dark {
+    background-color: #F8F8F8;
+}
+
+footer .inner .gray .zero-icon .icon p.dark {
+    color: #3B3B3B;
+}
+
+footer .inner .gray>p.dark {
+    color: #1E1E1E;
+}
+
+footer .inner .gray .zero-icon .icon:nth-child(1) span.dark {
+    background: url('../img/dark/xmark-icon-b.svg') no-repeat center/cover;
+}
+
+footer .inner .gray .zero-icon .icon:nth-child(2) span.dark {
+    background: url('../img/dark/wave-icon-b.svg') no-repeat center/cover;
+}
+
+footer .inner .gray .zero-icon .icon:nth-child(3) span.dark {
+    background: url('../img/dark/warning-b.svg') no-repeat center/cover;
+}

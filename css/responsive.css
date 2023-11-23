@@ -1,0 +1,466 @@
+@charset "utf-8";
+
+/* @media screen and (max-width: 숫자px) {} */
+
+/* header */
+@media screen and (max-width: 1550px) {
+    header .inner .find a {
+        width: 500px;
+    }
+
+    header .inner .find a span {
+        left: 45%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    header .inner .find a {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    header .inner .find a {
+        width: 200px;
+    }
+
+    header .inner .find a span {
+        left: 40%;
+    }
+
+    header .inner .window .position {
+        gap: 10px;
+    }
+
+    header .inner .window .window-op {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    header .inner {
+        padding: 5px 16px;
+    }
+
+    header .inner .menu .menu-op {
+        display: none;
+    }
+
+    header .inner .find a {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    header .inner .window .position span {
+        display: none;
+    }
+
+    header .inner .window .position span:nth-child(1) {
+        display: block;
+    }
+
+    header .inner .find a {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    header .inner .find .arrow {
+        display: none;
+    }
+
+    header .inner .find a {
+        width: 180px;
+    }
+}
+
+/* main */
+
+/* 틀..ㅠㅠ */
+
+@media screen and (max-width: 1400px) {
+    main .inner .file-box .file .file-up dl dt {
+        background: url(../img/noline-arrow-down.svg)no-repeat 3% center/ 10px 10px;
+    }
+
+    main .inner .file-box .file .file-up dl dd {
+        background: url(../img/noline-arrow-right.svg)no-repeat 5% 35%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    main .inner .file-box .three-op {
+        width: 30px;
+    }
+
+    main .inner .file-box .file {
+        width: calc(100% - 30px);
+    }
+
+    main .inner .file-box .three-op .op-up a {
+        width: 20px;
+        height: 20px;
+    }
+
+    main .inner .file-box .three-op .op-up a:nth-child(3) {
+        width: 24px;
+    }
+
+    main .inner .file-box .three-op .op-down span {
+        width: 20px;
+        height: 20px;
+    }
+    
+main .inner .file-box .three-op .op-up a:nth-child(1).dark {
+    background: url('../img/dark/file-b.svg')no-repeat center/20px 20px !important;
+}
+
+main .inner .file-box .three-op .op-up a:nth-child(2).dark {
+    background: url('../img/dark/find-b.svg')no-repeat center/cover !important;
+}
+
+main .inner .file-box .three-op .op-up a:nth-child(3).dark {
+    background: url('../img/dark/component-b.svg')no-repeat center/22px 20px !important;
+}
+}
+
+@media screen and (max-width: 900px) {
+    main .inner .file-box {
+        width: 20%;
+    }
+
+    main .inner .content {
+        width: 80%;
+    }
+
+    main .inner .content .content-wrap .con-up {
+        width: 280px;
+    }
+
+    main .inner .content .content-wrap .con-up li a {
+        background: url(../img/LOGO.png)no-repeat 7% center/15px 15px;
+        font-size: 1.2rem;
+    }
+
+    main .inner .content .content-wrap .con-up li a span {
+        width: 8px;
+        height: 8px;
+        right: 7%;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    main .inner .file-box {
+        width: 25%;
+    }
+
+    main .inner .content {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    main .inner .file-box .file .file-up dl dd {
+        background: none;
+        font-size: 1.2rem;
+        padding-left: 10%;
+    }
+
+    main .inner .file-box .file .file-up dl dt {
+        background: none;
+    }
+
+    main .inner .file-box .file .file-up a span {
+        display: none;
+    }
+
+    main .inner .file-box .file .file-down .down-box {
+        background: none;
+        font-size: 1rem;
+    }
+}
+
+/* profile */
+@media screen and (max-height: 700px) {
+    main .inner .content .content-wrap .con-down .con-wrap .profile .pro-left {
+        transform: translateY(10%);
+    }
+}
+
+@media screen and (max-width: 1170px) {
+    main .inner .content .content-wrap .con-down .con-wrap .profile {
+        gap: 5%;
+    }
+
+    main .inner .content .content-wrap .con-down .con-wrap .profile .pro-left {
+        width: 40%;
+    }
+
+    main .inner .content .content-wrap .con-down .con-wrap .profile .pro-right {
+        width: 400px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    main .inner .content .content-wrap .con-down .con-wrap .profile {
+        flex-direction: column;
+        justify-content: flex-start;
+        overflow: auto;
+        gap: 50px;
+        padding: 30px 0;
+    }
+
+    main .inner .content .content-wrap .con-down .con-wrap .profile .pro-right {
+        margin: 0 auto;
+        order: 1;
+        height: 500px;
+        width: 500px;
+    }
+
+    main .inner .content .content-wrap .con-down .con-wrap .profile .pro-right .pro-pic {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    main .inner .content .content-wrap .con-down .con-wrap .profile .pro-left {
+        order: 2;
+        width: 80%;
+        position: relative;
+    }
+
+    main .inner .content .content-wrap .con-down .con-wrap .profile .pro-left h1 {
+        width: 100%;
+        text-align: center;
+        transform: translateX(-10%);
+    }
+
+    main .inner .content .content-wrap .con-down .con-wrap .profile .pro-left h2 {
+        width: 100%;
+        text-align: center;
+        transform: translateX(-10%);
+
+    }
+
+    main .inner .content .content-wrap .con-down .con-wrap .profile .pro-left .index {
+        top: 120px;
+        left: 0;
+        width: 40%;
+        position: absolute;
+    }
+
+    main .inner .content .content-wrap .con-down .con-wrap .profile .pro-left .portfolio {
+        position: absolute;
+        width: 60%;
+        left: 40%;
+        top: 120px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    main .inner .content .content-wrap .con-down .con-wrap .profile .pro-right {
+        height: 350px;
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    main .inner .content .content-wrap .con-down .con-wrap .profile .pro-right {
+        width: 250px;
+        height: 250px;
+    }
+
+    main .inner .content .content-wrap .con-down .con-wrap .profile .pro-left {
+        width: 90%;
+    }
+
+    main .inner .content .content-wrap .con-down .con-wrap .profile .pro-left .portfolio {
+        position: absolute;
+        width: 70%;
+        left: 30%;
+        top: 100px;
+    }
+}
+
+/* work */
+@media screen and (max-height: 760px) {
+    main .inner .content .content-wrap .con-down .con-wrap .work .work-left {
+        transform: translateY(11%);
+    }
+
+    main .inner .content .content-wrap .con-down .con-wrap .work .work-right {
+        transform: translateY(11%);
+    }
+}
+
+@media screen and (max-width: 1450px) {
+    html {
+        font-size: 9px;
+    }
+
+    main .inner .content .content-wrap .con-down .con-wrap .work {
+        align-items: flex-start;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    main .inner .content .content-wrap .con-down .con-wrap .work {
+        padding-left: 30px;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    main .inner .content .content-wrap .con-down .con-wrap .work .work-left {
+        width: 80%;
+    }
+
+    main .inner .content .content-wrap .con-down .con-wrap .work .work-right {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    main .inner .content .content-wrap .con-down .con-wrap .work .work-left {
+        transform: translateY(5%);
+    }
+
+    main .inner .content .content-wrap .con-down .con-wrap .work .work-right {
+        transform: translateY(5%);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    main .inner .content .content-wrap .con-down .con-wrap .work .work-left {
+        width: 90%;
+    }
+
+    main .inner .content .content-wrap .con-down .con-wrap .work .work-right {
+        width: 90%;
+    }
+}
+
+/* contact */
+
+@media screen and (max-height: 830px) {
+    main .inner .content .content-wrap .con-down .con-wrap .contact .contact-right form fieldset {
+        height: 600px;
+    }
+
+    main .inner .content .content-wrap .con-down .con-wrap .contact .contact-right form fieldset textarea {
+        height: 200px;
+        overflow: auto;
+    }
+}
+
+@media screen and (max-height: 720px) {
+    main .inner .content .content-wrap .con-down .con-wrap .contact .contact-right form fieldset {
+        height: 520px;
+        padding: 30px 30px !important;
+    }
+
+    main .inner .content .content-wrap .con-down .con-wrap .contact .contact-right form fieldset textarea {
+        height: 150px;
+        overflow: auto;
+    }
+}
+
+@media screen and (max-width: 1470px) {
+    main .inner .content .content-wrap .con-down .con-wrap .contact .contact-right form fieldset {
+        padding: 40px 30px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    main .inner .content .content-wrap .con-down .con-wrap .contact .contact-left {
+        width: 30%;
+    }
+
+    main .inner .content .content-wrap .con-down .con-wrap .contact .contact-right {
+        width: 60%;
+        left: 35%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    main .inner .content .content-wrap .con-down .con-wrap .contact .contact-left {
+        width: 80%;
+        top: 7%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    main .inner .content .content-wrap .con-down .con-wrap .contact .contact-right {
+        width: 80%;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media screen and (max-width: 880px) {
+    main .inner .content .content-wrap .con-down .con-wrap .contact .contact-left {
+        width: 90%;
+    }
+
+    main .inner .content .content-wrap .con-down .con-wrap .contact .contact-right {
+        width: 90%;
+    }
+
+    main .inner .content .content-wrap .con-down .con-wrap .contact .contact-right form fieldset .message {
+        display: block;
+    }
+
+    main .inner .content .content-wrap .con-down .con-wrap .contact .contact-right form fieldset .message label {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    main .inner .content .content-wrap .con-down .con-wrap .contact .contact-right form fieldset textarea {
+        width: 100%;
+    }
+
+    main .inner .content .content-wrap .con-down .con-wrap .contact .contact-right form fieldset #submit {
+        width: 100px;
+        transform: none;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    main .inner .content .content-wrap .con-down .con-wrap .contact .contact-right {
+        width: 90%;
+        top: 45%;
+        padding: 0;
+    }
+
+    main .inner .content .content-wrap .con-down .con-wrap .contact .contact-right form fieldset {
+        padding: 0;
+        border: none;
+    }
+
+    main .inner .content .content-wrap .con-down .con-wrap .contact .contact-right form fieldset div {
+        display: block;
+        height: 55px;
+    }
+
+    main .inner .content .content-wrap .con-down .con-wrap .contact .contact-right form fieldset div label {
+        margin-bottom: 10px;
+        display: block;
+    }
+
+    main .inner .content .content-wrap .con-down .con-wrap .contact .contact-right form fieldset div input {
+        border-bottom: 1px solid #ccc;
+        width: 100%;
+    }
+}
+
+
+/* footer */
+@media screen and (max-width: 720px) {
+    html {
+        font-size: 8px;
+    }
+}
